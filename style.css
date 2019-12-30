@@ -1,4 +1,5 @@
 /*Navigation bar and links*/
+
 #nav-bar .container {
     display: inline-flex;
     flex-direction: row;
@@ -6,29 +7,70 @@
     align-items: center;
 
     height: 100px;
-    width: 100%;
-    margin: auto;
+    width: 70%;
 
-    background-color: #e6ccff;
+    background-color: #006699;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
-    padding-left: 20px;
-    padding-right: 20px;
     height: 50px;
-    width: 150px;
+    width: 200px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    margin: auto;
+    color: #fff;
+    padding: .5em 1em;
+}
+
+.nav a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #66ccff;
+}
+
+.nav a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav-bar h3 {
+    font-size: 20px;
+    margin: 0;
 }
 
 /*Home page main content*/
 #welcome {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    /*background-color:#e6e6ff;*/
+    background-color: #f2f2f2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #welcome .container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 75px 100px 100px 100px 100px;
+    grid-template-rows: auto;
     grid-auto-flow: column;
     margin-left: 10%;
     margin-right: 10%;
@@ -44,7 +86,7 @@
 }
 
 #welcomeheader h1 {
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 #welcome .box {
@@ -52,7 +94,9 @@
 }
 
 #welcome p {
-    margin: 0;
+    margin: 0 0 20px 0;
+    font-size:1em;
+    line-height:1.6;
 }
 
 /*Images*/
