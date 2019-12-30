@@ -151,8 +151,8 @@ a:active {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     grid-auto-flow: column;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 #headshotdiv {
@@ -258,6 +258,7 @@ a:active {
 
     width: 100%;
     height: auto;
+    padding-bottom: 1em;
 }
 
 .bottom p {
