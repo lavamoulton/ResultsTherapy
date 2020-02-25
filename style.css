@@ -1,5 +1,6 @@
 body {
     background-color: #f2f2f2;
+    text-align: justify;
 }
 
 /*Top of header*/
@@ -153,19 +154,38 @@ a:active {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#banner {
+.banner {
     display: inline-flex;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 1%;
-    justify-content: center;
-    align-items: stretch;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-#banner img {
-    max-width: 20%;
+.banner #headshot {
+    max-width: 25%;
     height: auto;
-    flex-basis: 25%;
+}
+
+.banner #servicebanner {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner #policybanner {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner #brainbanner {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner #contactbanner {
+    max-width: 100%;
+    height: auto;
 }
 
 #banner .quotecontainer {
