@@ -1,6 +1,8 @@
 body {
     background-color: #f2f2f2;
     text-align: justify;
+    
+    font-family: Comfortaa, Open Sans, sans-serif;
 }
 
 /*Top of header*/
@@ -17,7 +19,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
 
     border-bottom: 3px solid #666666;
@@ -95,8 +96,6 @@ body {
     background-color: #CEC5A6;
     margin-left: 10%;
     margin-right: 10%;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
@@ -151,7 +150,6 @@ a:active {
 
     /*background-color:#e6e6ff;*/
     background-color: #f2f2f2;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .banner {
@@ -244,7 +242,6 @@ a:active {
     margin-right: 10%;
     width: 80%;
     background-color: #CEC5A6;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #footer .container {
