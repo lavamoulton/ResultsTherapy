@@ -21,7 +21,7 @@ body {
 
     font-size: 100%;
 
-    border-bottom: 3px solid #666666;
+    border-bottom: 3px solid #888;
 
     margin-bottom: .5em;
     
@@ -92,6 +92,12 @@ body {
     height: 1%;
 }
 
+#nav-bar {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid #888;
+}
+
 /*Navigation bar and links*/
 #nav-bar .container {
     display: inline-flex;
@@ -100,11 +106,9 @@ body {
     align-items: center;
 
     height: 3em;
-    width: 80%;
+    width: 100%;
 
     background-color: #CEC5A6;
-    margin-left: 10%;
-    margin-right: 10%;
     
     text-align: center;
 }
@@ -112,11 +116,18 @@ body {
 .nav {
     height: 50px;
     width: 200px;
-    margin: auto;
+    margin: auto; 
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-height: 200px) {
+    #nav-bar {
+        position: sticky;
+        top: 0;
+    }
 }
 
 #nav a {
@@ -150,7 +161,7 @@ a:active {
 }
 
 #nav-bar h3 {
-    font-size: .85em;
+    font-size: .9em;
     margin: 0;
 }
 
@@ -256,6 +267,7 @@ a:active {
     margin-right: 10%;
     width: 80%;
     background-color: #CEC5A6;
+    border: 3px solid #888;
 }
 
 #footer .container {
