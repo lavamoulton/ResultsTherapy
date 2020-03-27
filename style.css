@@ -1,28 +1,33 @@
 body {
     background-color: #f2f2f2;
-    text-align: justify;
     font-family: Comfortaa, Open Sans, sans-serif;
+    font-size: 13px;
 }
 
-.navbar-nav a{
-    margin-left: 30px;
-    margin-right: 10px;
-    font-size: 12px;
-    font-weight: bold !important;
-    color: black ;
-    border-right: 3px solid #fff;
-    padding-right: 30px !important;
+
+
+.nab a{
+
+    font-size: 11px;
+    color: white !important;
+    border-right: 2px solid #fff;
+    padding-right: 20px;
 }
 
+.itea{
+    padding: 0;
+}
 /*My CSS*/
+
+h1,h3,h2,h4{
+    color: red;
+}
 .containerinner{
-    background-color: #CEC5A6;
+    background-color: black;
     text-align: center;
-    border:3px solid #888;
-}
-.navbar{
-    background-color: #CEC5A6;
-}
+    border:3px solid black;
+} 
+
 
 .active{
     color: black !important;
@@ -30,10 +35,26 @@ body {
  /*My CSS*/
 
 a:hover {
-    color:  #604020 !important;
+    color:  wheat !important;
 }
 
 a:visited , a{
     color: black;
 
 }
+
+.w-copyright a{
+    color: white;
+}
+
+.w-copyright a:hover{
+    color: white;
+}
+.w-copyright p{
+    color: white;
+}
+
+
+
+
+
